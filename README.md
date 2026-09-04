@@ -23,11 +23,14 @@ whatever is allowed under the above licence.
 
 ### Usage
 
+``` bash
 ./filterscript.sh mylibrary.pgn
+```
 
 This will leave the input file unaltered and will create
 the following files:
 
+```
 mylibrary-noelo-matches.pgn
 mylibrary-blitz-rapid-computer.pgn
 mylibrary-badresults.pgn
@@ -36,6 +39,7 @@ mylibrary-above100.pgn
 mylibrary-above1800.pgn
 ...
 mylibrary-above2500.pgn
+```
 
 Output files can be deleted and the tool can be run again
 and again.
@@ -47,24 +51,28 @@ and again.
    Run `chmod +x filterscript.sh` once after downloading.
 3. Make sure the pgn-extract tool in installed alongside using
    following structure:
+   ```
    ./project/PGN-collection-Mgr/
    ./project/pgn-extract/
+   ```
 
 That's all folks.
 
 ### Dependencies
 
-bash
-pgn-extract
-python 3
+- bash
+- pgn-extract
+- python 3
 
 ### Included files
 
+```
 .gitignore
 cleanpgn.py
 filterscript.sh
 GPL.md
 README.md (this file)
+```
 
 _eof_
 
