@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-cleanpgn.py
+cleanpgn.py by Yves De Billoez
 
 Reads a PGN file and removes games that:
 - contain 'rapid' or 'blitz' in the Event or EventType tag
@@ -18,6 +18,8 @@ Writes kept games to output.pgn, rejected games to rejected.pgn.
 
 Usage:
     python cleanpgn.py input.pgn output.pgn rejected.pgn
+
+SPDX-License-Identifier: GPL-2.0-only
 """
 
 import sys

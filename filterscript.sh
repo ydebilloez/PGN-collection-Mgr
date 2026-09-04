@@ -1,6 +1,9 @@
 #!/bin/bash
 #
 # script for cleaning list of all games
+# developed by Yves De Billoez
+#
+# SPDX-License-Identifier: GPL-2.0-only
 #
 
 # get basename without extension
